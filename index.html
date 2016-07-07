@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ETSY MockUp</title>
+    <meta name="description" content="An example basic webpage from The Iron Yard.">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/e661b7c81d.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="row">
+        <div class="col-md-8">
+            <img src="etsy-logo.png" class="etsyLogo col-md-1">
+            <span class="input-group col-md-6">
+        <input type="text" class="form-control" placeholder="board games" />
+        <span class="input-group-btn">
+          <button class="btn btn-default topButton" type="button">Search</button>
+        </span>
+            </span>
+        </div>
+        <div class="col-md-4 headerRight">
+            <button type="button" class="btn btn-link">Sell on Etsy</button>
+            <button type="button" class="btn btn-link">Register</button>
+            <button type="button" class="btn btn-default">Sign In</button>
+            <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+            <p class="text-right cartInfo">Cart</p>
+        </div>
+        <div class="col-md-12 linkSection">
+            <button type="button" class="btn btn-link">Clothing & Accessories</button>
+            <button type="button" class="btn btn-link">Jewelry</button>
+            <button type="button" class="btn btn-link">Craft Supplies & Tools</button>
+            <button type="button" class="btn btn-link">Weddings</button>
+            <button type="button" class="btn btn-link">Entertainment</button>
+            <button type="button" class="btn btn-link">Home & Living</button>
+            <button type="button" class="btn btn-link">Kids & Baby</button>
+            <button type="button" class="btn btn-link">Vintage</button>
+        </div>
+    </header>
+    <main class="conatainer">
+        <div class="row">
+            <div class="col-md-2">
+                <h5>Show results for:</h5>
+                <ul>
+                    <h5>All Categories</h5>
+                    <li>Toys & games</li>
+                    <li>Home & Living</li>
+                    <li>Art & Collectibles</li>
+                    <li>Paper & Party Supplies</li>
+                    <li>Jewelry</li>
+                    <li>Weddings</li>
+                    <li>Books, Movies & Music</li>
+                    <li>Accessories</li>
+                    <li>Bags & Purses</li>
+                    <li>Clothing</li>
+                    <li>Electronics & Accessories</li>
+                    <li>Bath & Beauty</li>
+                    <li>Pet Supplies</li>
+                    <li>Shoes</li>
+                </ul>
+            </div>
+            <div class="col-md-10">
+                <div id="etsyData" class="itemsForSale">
+
+                </div>
+
+            </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="node_modules/whatwg-fetch/fetch.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
