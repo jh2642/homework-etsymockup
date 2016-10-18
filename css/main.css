@@ -4,7 +4,8 @@ img {
 
 .etsyLogo {
   margin-left: 20px;
-  width: 15%;
+  padding-top: 10px;
+  width: 12%;
 }
 
 .itemsForSale {
@@ -13,15 +14,44 @@ img {
 
 .board-game {
   border: 1px solid #777777;
-  display: inline-block;
-  width: 23%;
-  margin-left: 20px;
+  width: 300px;
+  margin: 10px;
   font-size: 14px;
 }
 
 .board-game img {
+  min-width: 100%;
+  height: 200px;
+}
+
+.board-game p {
+  display: inline;
+}
+
+.boardgamePic {
   width: 100%;
   height: 200px;
+}
+
+.titleOverflow {
+  text-overflow: ellipsis;
+}
+
+.titleOverflow h5 {
+  width: 250px;
+  /* Required for text-overflow */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sellerInfo {
+  color: #777777;
+  text-decoration: none;
+}
+
+.priceInfo {
+  float: right;
+  color: green;
 }
 
 .topButton {
@@ -42,7 +72,7 @@ img {
 }
 
 .cartInfo {
-  margin-right: 235px;
+  margin-right: 230px;
 }
 
 .linkSection {

@@ -1,61 +1,91 @@
 img {
-  width: 100%;
+    width: 100%;
 }
 
 .etsyLogo {
-margin-left: 20px;
-  width: 15%;
+    margin-left: 20px;
+    padding-top: 10px;
+    width: 12%;
 }
 
 .itemsForSale {
-  cursor: pointer;
+    cursor: pointer;
 }
 .board-game {
-   border: 1px solid rgb(119, 119, 119);
-   display: inline-block;
-   width: 23%;
-   margin-left: 20px;
-   font-size: 14px;
-   img {
-       width: 100%;
-       height: 200px;
-   }
+    border: 1px solid rgb(119, 119, 119);
+    width: 300px;
+    margin: 10px;
+    font-size: 14px;
+    img {
+        min-width: 100%;
+        height: 200px;
+    }
+    p {
+        display: inline;
+    }
+}
+
+.boardgamePic {
+    width: 100%;
+    height: 200px;
+}
+
+
+.titleOverflow {
+    text-overflow: ellipsis;
+    h5 {
+        width: 250px;
+        /* Required for text-overflow */
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+.sellerInfo {
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+
+
+}
+.priceInfo {
+    float: right;
+    color: green;
 }
 
 .topButton {
-  background-color: blue;
-  color: white;
+    background-color: blue;
+    color: white;
 }
 .input-group {
-  margin-top: 25px;
+    margin-top: 25px;
 }
 .headerRight {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 .fa-shopping-cart {
-  margin-left: 18px;
+    margin-left: 18px;
 }
 .cartInfo {
-  margin-right: 235px;
+    margin-right: 230px;
 }
 .linkSection {
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-  padding-top: 5px;
-  padding-bottom: 5px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 ul {
-  li {
-    list-style-type: none;
-    margin-left: 10px;
-    color: blue;
-    line-height: 1.75
-  }
+    li {
+        list-style-type: none;
+        margin-left: 10px;
+        color: blue;
+        line-height: 1.75
+    }
 }
 .parentb {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 .child1b {
-  flex-direction: row;
+    flex-direction: row;
 }
